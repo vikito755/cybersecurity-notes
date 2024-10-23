@@ -3,6 +3,16 @@ Overthewire.org
 
 <h1> Bandit </h1>
 
+<h2>level 5</h3>
+1. cd inhere.
+2. Execute a bash script to match the conditions.
+    human-readable
+    1033 bytes in size
+    not executable
+
+3: find ./ -type f -exec du -b {} + | grep "1033" ( this runs only the 1033 bytes condition), may be incomplete.
+password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
 <h2>level 4</h3>
 1. cd "inhere".
 2. ls -a
