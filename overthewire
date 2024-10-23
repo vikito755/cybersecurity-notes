@@ -3,6 +3,12 @@ Overthewire.org
 
 <h1> Bandit </h1>
 
+<h2>level 4</h3>
+1. cd "inhere".
+2. ls -a
+3. Iterate over all files, one of them wil be human readable.
+password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
 <h2>level 3</h3>
 Go to the "inhere" directory.
 1. cd ...Hiding-From-You
