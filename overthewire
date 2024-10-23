@@ -4,6 +4,13 @@ Overthewire.org
 <h1> Bandit </h1>
 
 <h2>level 3</h3>
+Go to the "inhere" directory.
+1. cd ...Hiding-From-You
+2. ls -a (the "-a" flag is important).
+3. cat <filename> (...Hiding-From-You)
+Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+<h2>level 2</h3>
 The filename has spaces in it. The command in the home directory to find the file was:
 <code>find . 'spaces in this filename' -print</code> (not really needed, just "ls -a" would have done)
 The solution in the home directory was:
