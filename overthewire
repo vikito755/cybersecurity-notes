@@ -1,6 +1,11 @@
 Overthewire.org
 
 
+<h1> Bandit </h1>
+<h2> level 1</h2>
+In the "bandit1" machine in the "~" directory, run "cat ./-", it is a file whose name is just a dash.
+The password is:
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 <h2>Level 0</h2>
 The password from level: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
