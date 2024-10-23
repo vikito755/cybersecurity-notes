@@ -2,6 +2,15 @@ Overthewire.org
 
 
 <h1> Bandit </h1>
+
+<h2>level 3</h3>
+The filename has spaces in it. The command in the home directory to find the file was:
+<code>find . 'spaces in this filename' -print</code> (not really needed, just "ls -a" would have done)
+The solution in the home directory was:
+cat 'spaces in this filename'
+Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+
 <h2> level 1</h2>
 In the "bandit1" machine in the "~" directory, run "cat ./-", it is a file whose name is just a dash.
 The password is:
