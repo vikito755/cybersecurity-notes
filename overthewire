@@ -6,6 +6,9 @@ ssh bandit7@bandit.labs.overthewire.org -p 2220
 
 <h1> Bandit </h1>
 
+<h2>level 8</h3>
+1. 
+
 <h2>level 7</h3>
 1. cd ~ (the default directory we are in)
 2. cat data.txt | grep "millionth" (millionth is a direction we were given). 
