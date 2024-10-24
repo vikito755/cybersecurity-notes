@@ -6,6 +6,10 @@ ssh bandit9@bandit.labs.overthewire.org -p 2220
 
 <h1> Bandit </h1>
 
+<h2>level 9</h3>
+1. base64 data.txt | grep "=*"
+password: TleHm17wiXkAkT4WXlcz2xaIHL2NC2voDzdpTMrVxcPzNjJo6BtrTwPTT7adSwiCwZrpjLY1+UM=
+
 <h2>level 8</h3>
 1. sort data.txt | uniq -u
 password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
