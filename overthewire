@@ -6,28 +6,31 @@ ssh bandit9@bandit.labs.overthewire.org -p 2220
 
 <h1> Bandit </h1>
 
-<h2>level 9</h3>
-1. base64 data.txt | grep "=*"
-password: TleHm17wiXkAkT4WXlcz2xaIHL2NC2voDzdpTMrVxcPzNjJo6BtrTwPTT7adSwiCwZrpjLY1+UM=
 
-<h2>level 8</h3>
+
+<h2>level 9</h2>
+Progress:
+1. base64  data.txt | grep -E -i -w "^=*" | base64
+
+
+<h2>level 8</h2>
 1. sort data.txt | uniq -u
 password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
-<h2>level 7</h3>
+<h2>level 7</h2>
 1. cd ~ (the default directory we are in)
 2. cat data.txt | grep "millionth" (millionth is a direction we were given). 
 
 password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
-<h2>level 6</h3>
+<h2>level 6</h2>
 1. cd /
 2. find ./ -type f -user "bandit7" -group bandit6 -exec du -sb {} + | grep -sw "33"
 3. cat ./var/lib/dpkg/info/bandit7.password
 
 password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-<h2>level 5</h3>
+<h2>level 5</h2>
 1. cd inhere.
 2. Execute a bash script to match the conditions.
     human-readable
@@ -37,20 +40,20 @@ password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 3: find ./ -type f -exec du -b {} + | grep "1033" ( this runs only the 1033 bytes condition), may be incomplete.
 password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
-<h2>level 4</h3>
+<h2>level 4</h2>
 1. cd "inhere".
 2. ls -a
 3. Iterate over all files, one of them wil be human readable.
 password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-<h2>level 3</h3>
+<h2>level 3</h2>
 Go to the "inhere" directory.
 1. cd ...Hiding-From-You
 2. ls -a (the "-a" flag is important).
 3. cat <filename> (...Hiding-From-You)
 Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
-<h2>level 2</h3>
+<h2>level 2</h2>
 The filename has spaces in it. The command in the home directory to find the file was:
 <code>find . 'spaces in this filename' -print</code> (not really needed, just "ls -a" would have done)
 The solution in the home directory was:
