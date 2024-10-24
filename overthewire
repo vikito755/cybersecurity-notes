@@ -1,7 +1,7 @@
 Overthewire.org
 
-logging into level 7:
-ssh bandit7@bandit.labs.overthewire.org -p 2220
+logging into level 9:
+ssh bandit9@bandit.labs.overthewire.org -p 2220
 
 
 <h1> Bandit </h1>
